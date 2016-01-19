@@ -18,6 +18,11 @@ var format = 'ratio';
 if (args.percent) format = 'percent';
 if (args.format) format = args.format;		// ratio, percent, delta, difference
 
+if (args.sort || args.sortby) {
+	changes = changes.sort(function(a, b){ return a[args.sortby || 'ratio'] - b[args.sortby || 'ratio']; });
+	if (String(args.sort).match(/(asc|inver(t|se))/gi)) changes.reverse();
+}
+
 process.stdout.write(
 	'{\n'+
 	changes.map(function(change) {
