@@ -2,7 +2,7 @@
 
 > A very simple CLI + module that shows the difference between numeric values in two objects.
 
-![preview](http://i.imgur.com/OSdx2kn.png)
+<img width="583" style="max-width:100%;" src="https://i.imgur.com/OSdx2kn.png">
 
 ### Options
 

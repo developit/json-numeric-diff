@@ -16,13 +16,4 @@ module.exports = function diff(a, b) {
 				percent: isFinite(delta) ? ((delta * 100).toFixed(2)+'%') : String(delta)
 			};
 		});
-
-	// var keys = Object.keys(a).concat(Object.keys(b)).filter(function(v, i, arr) { return arr.indexOf(v)===i; }).sort(),
-	// 	changes = [];
-	// for (var i=0; i<keys.length; i++) {
-	// 	var k = keys[i];
-	// 	if (a[k]!=b[k]) {
-	//
-	// 	}
-	// }
 };
