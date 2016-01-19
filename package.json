@@ -1,0 +1,28 @@
+{
+  "name": "json-numeric-diff",
+  "version": "1.0.0",
+  "description": "Determine numeric differences between two objects",
+  "main": "index.js",
+  "bin": {
+    "json-numeric-diff": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developit/json-numeric-diff.git"
+  },
+  "keywords": [
+    "browser",
+    "perf",
+    "json"
+  ],
+  "author": "Jason Miller <jason@developit.ca>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/developit/json-numeric-diff/issues"
+  },
+  "homepage": "https://github.com/developit/json-numeric-diff",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "yargs": "^3.32.0"
+  }
+}
