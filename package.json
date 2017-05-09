@@ -23,6 +23,6 @@
   "homepage": "https://github.com/developit/json-numeric-diff",
   "dependencies": {
     "chalk": "^1.1.1",
-    "yargs": "^3.32.0"
+    "yargs": "^8.0.1"
   }
 }
