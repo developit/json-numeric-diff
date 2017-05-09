@@ -1,5 +1,7 @@
 # `json-numeric-diff`
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/developit/json-numeric-diff.svg)](https://greenkeeper.io/)
+
 > A very simple CLI + module that shows the difference between numeric values in two objects.
 
 <img width="583" style="max-width:100%;" src="https://i.imgur.com/OSdx2kn.png">
